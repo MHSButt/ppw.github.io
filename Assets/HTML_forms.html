@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h2>This is an example HTML form</h2>
+    <form action="backup.php"> 
+        <label for="name">Name</label>   
+    <div>
+             <input type="text" name="myName" id="name" placeholder="Enter your name">
+        </div>    
+        <br>
+        <label for="age">Age:</label>
+        <div>
+              <input type="text" name="myAge" id="age" placeholder="Enter your Age">
+        </div>
+        <br>
+        <div>
+            <label for="expectedsalary">Expected Salary:</label>
+            <input type="number" name="myExpectedSalary" id="expectedsalary" placeholder="Enter expected Salary">
+        </div>
+        <br>
+        <div>
+           Gender. Male: <input type="radio" name="myGender" id=""> Female: <input type="radio" name="myGender" id=""> Not Specified: <input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            <label for="DateofBirth">Date of Birth:</label>
+            <input type="date" name="myDateofBirth" id="DateofBirth">
+         </div>
+         <br>
+         <div>
+         Date and time of joining:<input type="datetime-local" name="myDateandTimeofJoining" id="">
+         </div>
+         <br>
+        <div>
+           Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Blood Group:  <input type="text" name="myBloodGroup">
+        </div>
+        <br>
+         <div>
+           Did you fill all the fields: <input type="checkbox" name="" id="">
+        </div>
+        <br>
+        <div>
+            Write about yourself:
+            <br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+        <label for="car">Car:</label>
+        <select name="myCar" id="car">
+            <option value="alto">Alto</option>
+            <option value="civic" selected>Civic</option>
+            <option value="corolla">Corolla</option>
+        </select>
+    </div>
+    <br>
+            <input type="submit" value="Submit Now">
+               
+            <input type="reset" value="Reset Now">
+        
+    </form>
+</body>
+</html>
